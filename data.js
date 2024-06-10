@@ -1,43 +1,5 @@
 klynt.data = {
     "sequences": {
-        "B5713261-84C2-C293-700B-FE8EED7F6C63": {
-            "id": "B5713261-84C2-C293-700B-FE8EED7F6C63",
-            "title": "Sequence 4",
-            "backgroundColor": "rgba(0,0,0,0.75)",
-            "y": 240,
-            "x": 52.98333333333334,
-            "hideTitleInMindmap": false,
-            "color": "rgba(0,0,0,1)",
-            "size": "small",
-            "hideInMindmap": false,
-            "duration": 30,
-            "hideThumbnailInMindmap": false,
-            "images": [
-                {
-                    "id": "56C4D2C0-75C0-B6B1-6EF5-FE97729D5929",
-                    "src": "Medias/Photos/Contratto_Arabax__1_.png",
-                    "scales": true,
-                    "horizontalAlign": "center",
-                    "centerY": "63.62",
-                    "width": "643.50",
-                    "name": "Contratto_Arabax__1_.png",
-                    "databegin": "00:00.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "centerX": "-5.13",
-                    "dataend": "00:31.00",
-                    "verticalAlign": "middle",
-                    "mediaWidth": 1080,
-                    "height": "1144.05",
-                    "duration": "00:31.00",
-                    "zIndex": 0,
-                    "mediaHeight": 1920,
-                    "scaleMode": "zoom"
-                }
-            ]
-        },
         "33A0C862-2207-9924-1FC6-B949EA0DA513": {
             "id": "33A0C862-2207-9924-1FC6-B949EA0DA513",
             "title": "Corretta",
@@ -89,10 +51,10 @@ klynt.data = {
             "images": [
                 {
                     "id": "6953446F-890A-731C-8C2E-E918CE578BD3",
+                    "centerY": "5.12",
                     "src": "Medias/Photos/WhatsApp_Image_2024-05-28_at_12.31.20.jpeg",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "5.12",
                     "width": "1741.62",
                     "name": "WhatsApp_Image_2024-05-28_at_12.31.20.jpeg",
                     "databegin": "00:00.00",
@@ -115,10 +77,10 @@ klynt.data = {
                 },
                 {
                     "id": "3FE4D16F-662E-4B7B-FA4F-E918B2A3D68D",
+                    "centerY": "5.81",
                     "src": "Medias/Photos/successo.png",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "5.81",
                     "width": "612.55",
                     "name": "successo.png",
                     "databegin": "00:00.00",
@@ -138,63 +100,6 @@ klynt.data = {
                 }
             ]
         },
-        "9A880478-7351-00E4-F9D6-B9425AA2EEAE": {
-            "id": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
-            "title": "Home",
-            "backgroundColor": "rgba(0,0,0,1)",
-            "y": 400,
-            "x": 639.9833333333333,
-            "hideTitleInMindmap": false,
-            "color": "rgba(0,0,0,1)",
-            "size": "large",
-            "iframes": [
-                {
-                    "id": "65094096-E827-4B4F-2D0E-B967AF271473",
-                    "centerY": "248.97",
-                    "scales": true,
-                    "width": "500.01",
-                    "databegin": "00:00.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "centerX": "10.08",
-                    "dataend": "02:00.91",
-                    "height": "299.99",
-                    "duration": "02:00.91",
-                    "zIndex": 2,
-                    "code": "<!DOCTYPE html>\r<html>\r<head>\r\t<script src=\"https://cdn.jsdelivr.net/gh/Klynt/Klynt-Player/Player/js/api/KlyntAPI.js\" type=\"text/javascript\"></script>\r\r\t<style>\r\tbody {\r\t\theight: 100px;\r\t}\r\tinput {\r\t\twidth: 100%;\r\t\tborder-top-color: transparent;\r\t\tborder-left-color: transparent;\r\t\tborder-right-color: transparent;\r\t\tfont-size: 24px;\r\t}\r\tinput:focus{\r\t\toutline: none;\r\t}\r\r\tbutton {\r\t\tpadding: 8px;\r\t\tmargin-top: 16px;\r\t\tborder: none;\r\t\tbackground: #08457e;\r\t\tcolor: white;\r\t\twidth: 100%\r\t}\r\t</style>\r\r</head>\r\r<body>\r\r\t<form name=\"myForm\" action=\"javascript:void(0);\" onsubmit=\"validateForm()\">\r\t\t<input type=\"text\" name=\"keypass\" autocomplete=\"off\">\r </form>\r\t<button onclick=\"validateForm()\">conferma</button>\r\r\t<script>\r\tfunction validateForm() {\r\t\tvar x = document.forms[\"myForm\"][\"keypass\"].value.toLowerCase().trim().replace(/\\s+/g, \"\");\r\t\tif (x == \"animadelsuono\") {\rKlyntAPI.commands.openSequence(\"33A0C862-2207-9924-1FC6-B949EA0DA513\");\r\t\t} else if (x==\"\") {\r\t\t\talert(\"inserire una password\");\r\t\t} else {\rKlyntAPI.commands.openSequence(\"3D1169A1-C78C-7E9A-2A11-B94A19005A49\");\r\t\t}\r\t}\r\t</script>\r</body>\r</html>"
-                }
-            ],
-            "hideInMindmap": false,
-            "duration": 119.90910338114604,
-            "hideThumbnailInMindmap": false,
-            "images": [
-                {
-                    "id": "362DD84B-A0C2-1129-712D-E8F566281E68",
-                    "src": "Medias/Photos/AreaP.png",
-                    "scales": true,
-                    "horizontalAlign": "center",
-                    "centerY": "5.22",
-                    "width": "1752.27",
-                    "name": "AreaP.png",
-                    "databegin": "00:00.00",
-                    "transitionIn": {
-                        "type": "fade",
-                        "duration": "1"
-                    },
-                    "centerX": "2.07",
-                    "dataend": "02:00.91",
-                    "verticalAlign": "middle",
-                    "mediaWidth": 970,
-                    "height": "984.61",
-                    "duration": "02:00.91",
-                    "zIndex": 1,
-                    "mediaHeight": 545,
-                    "scaleMode": "zoom"
-                }
-            ]
-        },
         "6D702118-BFBB-E500-99AE-E91A4425442A": {
             "id": "6D702118-BFBB-E500-99AE-E91A4425442A",
             "title": "ricompensa",
@@ -203,10 +108,10 @@ klynt.data = {
             "images": [
                 {
                     "id": "BDC3733B-E4EB-BCC2-5ABC-FEA8F1742B96",
+                    "centerY": "301.83",
                     "src": "Medias/Photos/click-2.png",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "301.83",
                     "width": "507.37",
                     "name": "click-2.png",
                     "databegin": "00:00.00",
@@ -276,21 +181,20 @@ klynt.data = {
             "videos": [
                 {
                     "height": "1006.02",
+                    "zIndex": 0,
+                    "autoplay": true,
                     "src": [
                         {
                             "type": "video/mp4",
                             "src": "Medias/Videos/ricompensa_sys4Fy20.mp4"
                         }
                     ],
-                    "autoplay": true,
                     "scales": true,
-                    "player": false,
                     "transitionIn": {
                         "type": "fade",
                         "duration": "1"
                     },
                     "centerX": "1.31",
-                    "poster": "Medias/Posters/ricompensa_sys4Fy20.mp4.jpg",
                     "syncMaster": true,
                     "id": "FFA29D33-3E32-C7D4-D6B5-F90A46B65B6A",
                     "centerY": "12.01",
@@ -304,14 +208,72 @@ klynt.data = {
                     "mediaWidth": 1080,
                     "verticalAlign": "middle",
                     "duration": "01:57.42",
-                    "zIndex": 0,
+                    "player": false,
                     "volume": 1,
                     "mediaHeight": 1972,
-                    "scaleMode": "zoom"
+                    "scaleMode": "zoom",
+                    "poster": "Medias/Posters/ricompensa_sys4Fy20.mp4.jpg"
                 }
             ],
             "hideThumbnailInMindmap": false,
             "color": "rgba(0,0,0,1)"
+        },
+        "9A880478-7351-00E4-F9D6-B9425AA2EEAE": {
+            "id": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
+            "title": "Home",
+            "backgroundColor": "rgba(0,0,0,1)",
+            "y": 400,
+            "x": 639.9833333333333,
+            "hideTitleInMindmap": false,
+            "color": "rgba(0,0,0,1)",
+            "size": "large",
+            "iframes": [
+                {
+                    "id": "65094096-E827-4B4F-2D0E-B967AF271473",
+                    "centerY": "248.97",
+                    "scales": true,
+                    "width": "500.01",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "10.08",
+                    "dataend": "02:00.91",
+                    "height": "299.99",
+                    "duration": "02:00.91",
+                    "zIndex": 2,
+                    "code": "<!DOCTYPE html>\r<html>\r<head>\r\t<script src=\"https://cdn.jsdelivr.net/gh/Klynt/Klynt-Player/Player/js/api/KlyntAPI.js\" type=\"text/javascript\"></script>\r\r\t<style>\r\tbody {\r\t\theight: 100px;\r\t}\r\tinput {\r\t\twidth: 100%;\r\t\tborder-top-color: transparent;\r\t\tborder-left-color: transparent;\r\t\tborder-right-color: transparent;\r\t\tfont-size: 24px;\r\t}\r\tinput:focus{\r\t\toutline: none;\r\t}\r\r\tbutton {\r\t\tpadding: 8px;\r\t\tmargin-top: 16px;\r\t\tborder: none;\r\t\tbackground: #08457e;\r\t\tcolor: white;\r\t\twidth: 100%\r\t}\r\t</style>\r\r</head>\r\r<body>\r\r\t<form name=\"myForm\" action=\"javascript:void(0);\" onsubmit=\"validateForm()\">\r\t\t<input type=\"text\" name=\"keypass\" autocomplete=\"off\">\r </form>\r\t<button onclick=\"validateForm()\">conferma</button>\r\r\t<script>\r\tfunction validateForm() {\r\t\tvar x = document.forms[\"myForm\"][\"keypass\"].value.toLowerCase().trim().replace(/\\s+/g, \"\");\r\t\tif (x == \"animadelsuono\") {\rKlyntAPI.commands.openSequence(\"33A0C862-2207-9924-1FC6-B949EA0DA513\");\r\t\t} else if (x==\"\") {\r\t\t\talert(\"inserire una password\");\r\t\t} else {\rKlyntAPI.commands.openSequence(\"3D1169A1-C78C-7E9A-2A11-B94A19005A49\");\r\t\t}\r\t}\r\t</script>\r</body>\r</html>"
+                }
+            ],
+            "hideInMindmap": false,
+            "duration": 119.90910338114604,
+            "hideThumbnailInMindmap": false,
+            "images": [
+                {
+                    "id": "362DD84B-A0C2-1129-712D-E8F566281E68",
+                    "centerY": "5.22",
+                    "src": "Medias/Photos/AreaP.png",
+                    "scales": true,
+                    "horizontalAlign": "center",
+                    "width": "1752.27",
+                    "name": "AreaP.png",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "2.07",
+                    "dataend": "02:00.91",
+                    "verticalAlign": "middle",
+                    "mediaWidth": 970,
+                    "height": "984.61",
+                    "duration": "02:00.91",
+                    "zIndex": 1,
+                    "mediaHeight": 545,
+                    "scaleMode": "zoom"
+                }
+            ]
         },
         "3D1169A1-C78C-7E9A-2A11-B94A19005A49": {
             "id": "3D1169A1-C78C-7E9A-2A11-B94A19005A49",
@@ -392,10 +354,10 @@ klynt.data = {
             "images": [
                 {
                     "id": "87FE28D5-EA1C-B7B5-2FDB-DD5B7FB5C7AF",
+                    "centerY": "370.48",
                     "src": "Medias/Photos/Logo_Arabax_Studios.png",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "370.48",
                     "width": "204.01",
                     "name": "Logo_Arabax_Studios.png",
                     "databegin": "00:00.00",
@@ -415,10 +377,10 @@ klynt.data = {
                 },
                 {
                     "id": "AEC58C88-C9B6-076F-1B14-E8C3C3134EE2",
+                    "centerY": "3.29",
                     "src": "Medias/Photos/WhatsApp_Image_2024-05-28_at_12.31.20.jpeg",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "3.29",
                     "width": "1740.67",
                     "name": "WhatsApp_Image_2024-05-28_at_12.31.20.jpeg",
                     "databegin": "00:00.00",
@@ -442,10 +404,10 @@ klynt.data = {
                 },
                 {
                     "id": "515C3C9D-24B9-3E97-415F-E8CC4B730246",
+                    "centerY": "18.02",
                     "src": "Medias/Photos/passErrata.png",
                     "scales": true,
                     "horizontalAlign": "center",
-                    "centerY": "18.02",
                     "width": "1688.32",
                     "name": "passErrata.png",
                     "databegin": "00:00.00",
@@ -464,74 +426,94 @@ klynt.data = {
                     "scaleMode": "zoom"
                 }
             ]
+        },
+        "B5713261-84C2-C293-700B-FE8EED7F6C63": {
+            "id": "B5713261-84C2-C293-700B-FE8EED7F6C63",
+            "title": "Sequence 4",
+            "backgroundColor": "rgba(0,0,0,0.75)",
+            "y": 240,
+            "images": [
+                {
+                    "id": "E5FCCC06-F04C-350B-C96C-02BDD224BA3E",
+                    "centerY": "45.37",
+                    "src": "Medias/Photos/Contratto-Arabax.png",
+                    "scales": true,
+                    "horizontalAlign": "center",
+                    "width": "648.20",
+                    "name": "Contratto-Arabax.png",
+                    "databegin": "00:00.00",
+                    "transitionIn": {
+                        "type": "fade",
+                        "duration": "1"
+                    },
+                    "centerX": "-5.29",
+                    "dataend": "00:31.00",
+                    "verticalAlign": "middle",
+                    "mediaWidth": 1080,
+                    "height": "1152.35",
+                    "duration": "00:31.00",
+                    "zIndex": 0,
+                    "mediaHeight": 1920,
+                    "scaleMode": "zoom"
+                }
+            ],
+            "x": 52.98333333333334,
+            "hideTitleInMindmap": false,
+            "thumbnail": "Medias/Thumbnails/Contratto-Arabax.png.png",
+            "size": "small",
+            "hideInMindmap": false,
+            "duration": 30,
+            "hideThumbnailInMindmap": false,
+            "color": "rgba(0,0,0,1)"
         }
     },
-    "share": {
-        "enableLinkedIn": true,
-        "link": null,
-        "embedWording": "Embed",
-        "enableTumblr": true,
-        "verticalWording": "Vertical",
-        "playerWording": "Player",
-        "title": "",
-        "horizontalWording": "Horizontal",
-        "customSizeWording": "Custom",
-        "displayMiniPlayerWording": true,
-        "shareSequenceWording": "Share sequence",
-        "linkWording": "Link",
-        "originalSizeWording": "Original",
-        "shortMessage": "",
-        "socialNetworksWording": "Social Networks",
-        "miniPlayerWording": "Mini player",
-        "thumbnail": null,
-        "enableGooglePlus": true,
-        "removeViaKlynt": true,
-        "message": ""
+    "aliases": {
+        "idToAlias": {
+            "33A0C862-2207-9924-1FC6-B949EA0DA513": "Corretta",
+            "6D702118-BFBB-E500-99AE-E91A4425442A": "ricompensa",
+            "9A880478-7351-00E4-F9D6-B9425AA2EEAE": "Home",
+            "3D1169A1-C78C-7E9A-2A11-B94A19005A49": "Sbagliata",
+            "B5713261-84C2-C293-700B-FE8EED7F6C63": "Sequence_4"
+        },
+        "aliasToId": {
+            "Home": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
+            "ricompensa": "6D702118-BFBB-E500-99AE-E91A4425442A",
+            "Corretta": "33A0C862-2207-9924-1FC6-B949EA0DA513",
+            "Sbagliata": "3D1169A1-C78C-7E9A-2A11-B94A19005A49",
+            "Sequence_4": "B5713261-84C2-C293-700B-FE8EED7F6C63"
+        }
     },
     "miniPlayer": {
         "fullscreenInfoWording": "This program will launch in fullscreen",
-        "launchAppWording": "Then Launch Project",
         "title": "ARG_CEO",
         "thanksForWatchingWording": "Thanks for watching!",
         "description": "",
         "resumePlaybackWording": "Resume playback?",
         "redirectToMobileApp": "always",
+        "launchAppWording": "Then Launch Project",
         "yesWording": "Yes",
         "url": "",
+        "downloadAppWording": "Download App",
         "noWording": "No",
         "thumbnail": "Player/css/editor/img/mini-player.jpg",
-        "analyticsKey": "",
-        "downloadAppWording": "Download App"
+        "analyticsKey": ""
     },
-    "aliases": {
-        "idToAlias": {
-            "B5713261-84C2-C293-700B-FE8EED7F6C63": "Sequence_4",
-            "33A0C862-2207-9924-1FC6-B949EA0DA513": "Corretta",
-            "9A880478-7351-00E4-F9D6-B9425AA2EEAE": "Home",
-            "6D702118-BFBB-E500-99AE-E91A4425442A": "ricompensa",
-            "3D1169A1-C78C-7E9A-2A11-B94A19005A49": "Sbagliata"
-        },
-        "aliasToId": {
-            "Sbagliata": "3D1169A1-C78C-7E9A-2A11-B94A19005A49",
-            "Home": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
-            "Sequence_4": "B5713261-84C2-C293-700B-FE8EED7F6C63",
-            "Corretta": "33A0C862-2207-9924-1FC6-B949EA0DA513",
-            "ricompensa": "6D702118-BFBB-E500-99AE-E91A4425442A"
-        }
-    },
-    "wording": {
-        "total_duration": "(durée totale : {0})",
-        "your_are_here": "Vous êtes ici",
-        "program_percentage_viewed": "du programme vu",
-        "total_sequences": "séquences au total",
-        "keywords": "mots-clés"
+    "mainSequence": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
+    "advanced": {
+        "enableFullWindowMode": true,
+        "enableKeyboardNavigation": true,
+        "enableScrollNavigation": true,
+        "hasRemoteVideos": false,
+        "remoteVideosAPILocalBitrate": "best",
+        "enableSwipeNavigation": true,
+        "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php"
     },
     "general": {
-        "projectId": "435AE820-A379-2697-7995-B9425A3F6B16",
         "ratio": "custom",
         "username": "polito",
         "title": "ARG_CEO",
         "level": 5,
+        "overlayCloseButtonRight": 16,
         "primaryColor": 3355443,
         "description": "",
         "author": "polito",
@@ -542,26 +524,26 @@ klynt.data = {
         "analyticsKey": "",
         "tertiaryColor": 15286861,
         "width": 545,
-        "overlayCloseButtonRight": 16,
+        "projectId": "435AE820-A379-2697-7995-B9425A3F6B16",
         "mapsKey": "",
         "mainFontName": "Open Sans",
         "height": 970,
-        "modificationDate": 1717964610179,
+        "modificationDate": 1718032989524,
         "keywords": null,
         "mainFontSize": 14,
         "overlayCloseButtonTop": 16,
         "editorVersionNumber": "3.5.007"
     },
     "menu": {
-        "backgroundImage": null,
         "offset_sequence": 12,
+        "backgroundImage": null,
         "searchWidget": "0A1911CF-73F5-3273-4CF6-B9425A935840",
         "widgets": [
             {
                 "params": {
-                    "layout": "grid",
-                    "displayDescriptions": true,
                     "displayDuration": true,
+                    "displayDescriptions": true,
+                    "layout": "grid",
                     "sequences": []
                 },
                 "id": "DE574F1E-AB2F-3815-AD7C-B9425A94B7D9",
@@ -614,7 +596,28 @@ klynt.data = {
         "enabled": false,
         "position": "top-left"
     },
-    "mainSequence": "9A880478-7351-00E4-F9D6-B9425AA2EEAE",
+    "share": {
+        "enableLinkedIn": true,
+        "thumbnail": null,
+        "embedWording": "Embed",
+        "enableTumblr": true,
+        "originalSizeWording": "Original",
+        "verticalWording": "Vertical",
+        "playerWording": "Player",
+        "title": "",
+        "horizontalWording": "Horizontal",
+        "customSizeWording": "Custom",
+        "miniPlayerWording": "Mini player",
+        "displayMiniPlayerWording": true,
+        "linkWording": "Link",
+        "removeViaKlynt": true,
+        "shortMessage": "",
+        "socialNetworksWording": "Social Networks",
+        "message": "",
+        "shareSequenceWording": "Share sequence",
+        "link": null,
+        "enableGooglePlus": true
+    },
     "footer": {
         "height": 26,
         "items": [
@@ -644,13 +647,11 @@ klynt.data = {
             }
         ]
     },
-    "advanced": {
-        "enableFullWindowMode": true,
-        "enableKeyboardNavigation": true,
-        "enableScrollNavigation": true,
-        "hasRemoteVideos": false,
-        "remoteVideosAPILocalBitrate": "best",
-        "enableSwipeNavigation": true,
-        "remoteVideosAPIURL": "http://api.klynt.net/video/klynt-video-api.php"
+    "wording": {
+        "total_duration": "(durée totale : {0})",
+        "your_are_here": "Vous êtes ici",
+        "total_sequences": "séquences au total",
+        "program_percentage_viewed": "du programme vu",
+        "keywords": "mots-clés"
     }
 }
